@@ -1,0 +1,33 @@
+/*
+ * @Author: zxq  
+ * @Date: 2019-07-01 22:20:29 
+ * @Last Modified by: zxq
+ * @Last Modified time: 2019-07-01 22:20:29 
+ */
+
+/*屏幕宽度小于340px时的样式*/
+@media(max-width: 340px){
+/*样式1*/
+	/* 屏幕宽度小于340px时，基准尺寸使用18px */
+	html{
+		font-size: 18px;
+	}
+}
+
+/*屏幕宽度在340px至410px时的样式*/
+@media(min-width: 340px ,max-width: 410px){
+/*样式2*/
+	/* 屏幕宽度在340px至410px时，基准尺寸使用20px */
+	html{
+		font-size: 20px;
+	}
+}
+
+/*屏幕宽度大于410px时的样式*/
+@media(min-width: 410px){
+/*样式3*/
+	/*屏幕宽度大于410px时，基准尺寸使用22px */
+	html{
+		font-size: 22px;
+	}
+}
