@@ -1,4 +1,4 @@
-/*
+﻿/*
  * @Author: zxq  
  * @Date: 2019-07-01 22:20:29 
  * @Last Modified by: zxq
@@ -10,3 +10,6 @@
 
  /* 公共样式 */
  @import './common.css';
+
+ /* 字体图标 */
+ @import './icon.css';
