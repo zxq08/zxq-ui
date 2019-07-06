@@ -1,0 +1,18 @@
+/*
+ * @Author: zxq  
+ * @Date: 2019-07-06 17:00:00 
+ * @Last Modified by: zxq
+ * @Last Modified time: 2019-07-06 17:00:00 
+ */
+
+ /* 头部导航条 */
+ .tt-header{
+ 	position: fixed;
+ 	box-sizing: border-box; /* 怪异盒模型 */
+ 	width: 100%;
+ 	max-width: 640px;
+ 	height: 2.3rem;
+ 	top: 0;
+ 	z-index: 200;
+ 	border-bottom: 1px solid #ddd;
+ }

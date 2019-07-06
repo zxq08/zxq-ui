@@ -2,17 +2,16 @@
  * @Author: zxq  
  * @Date: 2019-07-01 22:20:29 
  * @Last Modified by: zxq
- * @Last Modified time: 2019-07-01 22:20:29 
+ * @Last Modified time: 2019-07-06 17:00:00  
  */
 
 /*屏幕宽度小于340px时的样式*/
-@media(max-width: 340px){
 /*样式1*/
 	/* 屏幕宽度小于340px时，基准尺寸使用18px */
 	html{
 		font-size: 18px;
 	}
-}
+
 
 /*屏幕宽度在340px至410px时的样式*/
 @media(min-width: 340px ,max-width: 410px){
@@ -30,4 +29,22 @@
 	html{
 		font-size: 22px;
 	}
+}
+
+body{
+	max-width: 640px;
+	margin: 0 auto;
+	background: #f8f8f8;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;/* ios上滚动元素具有弹性，只针对webkit生效 */
+}
+
+.tt-mask{
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,.5);
+	z-index: 200;
 }

@@ -1,0 +1,20 @@
+/*
+ * @Author: zxq  
+ * @Date: 2019-07-06 17:00:00 
+ * @Last Modified by: zxq
+ * @Last Modified time: 2019-07-06 17:00:00 
+ */
+
+ /* 内容区样式 */
+ .tt-content{
+ 	position: relative; /* 子元素绝对定位时以它为参照物 */
+ 	box-sizing: border-box; /* 怪异盒模型 */
+ 	overflow-y: auto;
+ }
+ /* 根据header和navbar自动适应内容区高度*/
+ .tt-header ~ .tt-content{
+ 	padding-top: 2.3rem;
+ }
+ .tt-navbar ~ .tt-content{
+ 	padding-top: 2.5rem;
+ }
