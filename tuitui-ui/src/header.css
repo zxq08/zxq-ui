@@ -2,17 +2,39 @@
  * @Author: zxq  
  * @Date: 2019-07-06 17:00:00 
  * @Last Modified by: zxq
- * @Last Modified time: 2019-07-06 17:00:00 
+ * @Last Modified time: 2019-07-08 17:00:00 
  */
 
  /* 头部导航条 */
  .tt-header{
+ 	display: flex;
  	position: fixed;
  	box-sizing: border-box; /* 怪异盒模型 */
  	width: 100%;
  	max-width: 640px;
  	height: 2.3rem;
+ 	line-height: 2.3rem;
+ 	text-align: center;
  	top: 0;
  	z-index: 200;
  	border-bottom: 1px solid #ddd;
+ 	background: #f8f8f8;
+ }
+ /* 左侧功能区 */
+ .tt-header > .left{
+ 	flex-basis: 3rem;
+ 	text-align: center;
+ 	flex-shrink: 0;
+ }
+ /* 中间标题部分 */
+ .tt-header > .title{
+ 	flex-grow: 1;
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ 	text-overflow: ellipsis;
+ }
+ /* 右侧功能区 */
+ .tt-header > .right{
+ 	flex-basis: 3rem;
+ 	flex-shrink: 0;
  }

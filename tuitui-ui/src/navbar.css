@@ -2,11 +2,12 @@
  * @Author: zxq  
  * @Date: 2019-07-06 17:00:00 
  * @Last Modified by: zxq
- * @Last Modified time: 2019-07-06 17:00:00 
+ * @Last Modified time: 2019-07-08 18:00:00 
  */
 
 /* 底部导航栏 */
  .tt-navbar{
+ 	display: flex;
  	position: fixed;
  	box-sizing: border-box; /* 怪异盒模型 */
  	bottom: 0;
@@ -15,4 +16,25 @@
  	max-width: 640px;
  	border: 1px solid #ddd;
  	z-index: 200;
+ 	background: #f8f8f8;
+ 	text-align: center;
+ }
+ /* 导航项目 */
+ .tt-navbar > .navbar-item{
+ 	flex: 1;
+ 	color: #808080;
+ }
+ /* 被选中的样式 */
+ .tt-navbar > .navbar-item.active{
+ 	color: #09BB07;
+ }
+ /* 导航图标 */
+ .tt-navbar > .navbar-item > .icon{
+ 	padding: .3rem 0 .1rem;
+ 	font-size: 1.1rem;
+ }
+ /* 导航名称 */
+ .tt-navbar > .navbar-item > .name{
+ 	display: block;
+ 	font-size: .5rem;
  }
