@@ -1,0 +1,70 @@
+/*
+ * @Author: zxq  
+ * @Date: 2019-08-07 08:20:29 
+ * @Last Modified by: zxq
+ * @Last Modified time: 2019-08-07 08:20:29 
+ */
+
+ .tt-modal{
+ 	display: none;
+ }
+ .tt-modal.show{
+ 	display: block;
+ }
+ .tt-modal .tt-modal-wrap{
+ 	position: absolute;
+ 	width: 75%;
+ 	max-width: 480px;
+ 	top: 45%;
+ 	transform: translateY(-50%);
+ 	left: 12.5%;
+ 	right: 0;
+ 	margin-right: auto;
+ 	background-color: #fff;
+ 	border-radius: .4rem;
+ 	z-index: 301
+ }
+ .tt-modal .tt-modal-body{
+ 	padding: 1.8rem .8rem 1.5rem;
+ 	text-align: center;
+ 	font-size: .8rem;
+ 	line-height: 1.2rem;
+ 	overflow: hidden;
+ }
+ .tt-modal .tt-modal-footer{
+ 	display: flex;
+ 	border-top: 1px solid #ddd;
+ }
+ .tt-modal .tt-modal-footer .tt-btn{
+ 	border: none;
+ 	border-radius: 0;
+ 	width: 100%;
+ 	font-size: .8rem;
+ }
+ .tt-modal .tt-modal-footer .tt-btn + .tt-btn{
+ 	border-left: 1px solid #ddd;
+ }
+ /* 海报模态框 */
+ .tt-modal .tt-modal-body.no-padding{
+ 	padding: 0;
+ }
+ .tt-modal .tt-modal-body .tt-modal-img{
+ 	display: block;
+ 	width: 100%;
+ 	border-radius: .3rem;
+ }
+ .tt-modal .tt-modal-close{
+ 	position: absolute;
+ 	left: 0;
+ 	right: 0;
+ 	width: 1.3rem;
+ 	line-height: 1.3rem;
+ 	margin: auto;
+ 	bottom: -3rem;
+ 	text-align: center;
+ 	font-size: .8rem;
+ 	font-weight: 100;
+ 	color: #eee;
+ 	border: 1px solid #eee;
+ 	border-radius: 50%;
+ }

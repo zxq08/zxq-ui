@@ -1,0 +1,95 @@
+/*
+ * @Author: zxq  
+ * @Date: 2019-08-06 21:43:29 
+ * @Last Modified by: zxq
+ * @Last Modified time: 2019-08-06 21:43:29
+ */
+
+ /* 列表里的每一行容器 */
+ .tt-list > .tt-list-item{
+ 	display: flex;
+ 	position: relative;
+ 	padding: .5rem 1rem;
+ 	color: #333;
+ 	background: #fff;
+ 	border-bottom: 1px solid #eee;
+ }
+ /* 列表项的图片容器 */
+ .tt-list .item-img-wrap{
+ 	flex: 0 0 5rem;
+ 	height: 5rem;
+ 	margin-right: .5rem;
+ 	border-radius: .2rem;
+ 	overflow: hidden;
+ }
+ /* 列表项的图片 */
+ .tt-list .item-img-wrap > .item-img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ /* 列表项的文字区域 */
+ .tt-list .item-content-wrap{
+ 	position: relative;
+ 	flex: 1;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ }
+ /* 列表项的标题 */
+ /* 多行文字溢出... */
+ .tt-list .item-content-wrap > .item-title{
+ 	height: 2rem;
+ 	line-height: 1rem;
+ 	font-size: .8rem;
+ 	font-weight: normal;
+ 	overflow: hidden;
+ 	display: -webkit-box;
+ 	-webkit-line-clamp: 2;
+ 	-webkit-box-orient: vertical;
+ }
+ /* 列表项的价格 */
+ .tt-list .item-content-wrap > .item-price{
+ 	font-size: .8rem;
+ 	font-weight: 600;
+ 	color: #e0652f;
+ }
+ /* 列表项的描述字段 */
+ .tt-list .item-content-wrap > .item-desc{
+ 	color: #999;
+ 	font-size: .6rem;
+ }
+
+ /* 两列布局 */
+ .tt-list{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ }
+ .tt-list > .zz-list-item{
+ 	box-sizing: border-box;
+ 	display: flex;
+ 	flex-direction: column;
+ 	width: 50%;
+ 	padding: 1rem;
+ 	border: 1px solid #eee;
+ 	flex: 0 0 50%;
+ }
+ .zz-list-item .zz-img-wrap{
+ }
+ .zz-img-wrap > .zz-item-img{
+ 	width: 100%;
+ }
+ .zz-list-item .zz-item-bottom{}
+ .zz-list-item .zz-item-price{
+ 	font-size: .8rem;
+ 	font-weight: 600;
+ 	color:#e0652f;
+ }
+ .zz-list-item .zz-item-oldPrice{
+ 	font-size: .6rem;
+ 	text-decoration: line-through;
+ 	color:#999;
+ }
+ .zz-list-item .zz-item-desc{
+ 	font-size: .6rem;
+ 	color:#999;
+ }

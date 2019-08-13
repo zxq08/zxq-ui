@@ -6,7 +6,7 @@
  */
  /* 表单的单行容器 */
  .tt-form-item{
- 	display: flex;、
+ 	display: flex;
  	position: relative;
  	padding-left: 1rem;
  	border-bottom: 1px solid #eee;

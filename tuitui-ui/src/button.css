@@ -1,0 +1,56 @@
+/*
+ * @Author: zxq  
+ * @Date: 2019-08-05 14:00:00; 
+ * @Last Modified by: zxq
+ * @Last Modified time: 2019-08-05 17:00:00  
+ */
+
+
+.tt-btn{
+	display: block;
+	position: relative;
+	width: 10rem;
+	margin: 0 auto;
+	padding: .5rem 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	font-size: .7rem;
+	text-align: center;
+	color: #000;
+	border-radius: 5px;
+	user-select: none;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.tt-btn-primary{
+	color: #fff;
+	background-color: #1AAD19;
+}
+
+.tt-btn-warning{
+	color: #fff;
+	background-color: #E64340;
+}
+
+.tt-btn-disabled{
+	color: #999;
+	background-color: #F7F7F7;
+	opacity: .6;
+}
+
+.tt-btn.tt-btn-large{
+	width: 100%;
+	font-size: .9rem;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+}
+
+.tt-btn.tt-btn-small{
+	width: 3rem;
+	display: inline-block;
+	padding: .2rem 0;
+	font-size: .7rem;
+}
