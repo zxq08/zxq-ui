@@ -30,3 +30,11 @@
  @import './menu.css';
  /* 模态框的样式 */
  @import './modal.css';
+ /* loading加载的样式 */
+ @import './loading.css';
+ /* toast加载的样式 */
+ @import './toast.css';
+ /* action-sheet弹出菜单样式 */
+ @import './action-sheet.css';
+ /* article文本组件样式 */
+ @import './article.css';
